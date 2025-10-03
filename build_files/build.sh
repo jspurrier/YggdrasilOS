@@ -10,8 +10,8 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 group install -y "cosmic-desktop"
-dnf5 install -y tmux cosmic-desktop
+#dnf5 group install -y "cosmic-desktop"
+dnf5 install -y cosmic-desktop
 
 # Use a COPR Example:
 #
