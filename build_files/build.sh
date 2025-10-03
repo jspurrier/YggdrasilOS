@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 #dnf5 group install -y "cosmic-desktop"
-dnf5 install -y tmux
+dnf5 install -y cosmic-app-library cosmic-applets cosmic-bg cosmic-comp cosmic-config-fedora cosmic-greeter cosmic-icon-theme cosmic-idle cosmic-launcher cosmic-notifications cosmic-osd cosmic-panel cosmic-randr cosmic-screenshot cosmic-settings cosmic-settings-daemon cosmic-term cosmic-workspaces
 
 # Use a COPR Example:
 #
